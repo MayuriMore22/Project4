@@ -212,7 +212,7 @@ $(document).ready(function(){
     $('h1').click(function(){
      //console.log("clicked on h1");
      $('h1').css('color','red');
-     
+   $(this).css("background-color", "blue");   
     });    
   
 
