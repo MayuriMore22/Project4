@@ -198,6 +198,13 @@ $(document).ready(function(){
      $("#searchTxt").show();
     */
   
+    $("#searchTxt").hide();
+    $('#btn1').click(function(e){
+      e.preventDefault();
+     $("#searchTxt").toggle();
+    });  
+  
+  
   $('#savebtn').click(function(){
   
   $("table").css("background", "lightgreen");
