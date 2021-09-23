@@ -63,7 +63,12 @@ function showItems() {
         <table class="table table-danger table-hover">
         <tbody>
         <tr>
-          <td>${element}</td>
+        <td>
+           <div class="form-check">
+             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+             <label class="label1"  id="label1"for="flexCheckDefault">${element}</label>
+            </div>
+           </td>
           <td class="float-right">
             <button class="btn btn-primary badge-pill" type="button"  id="${index}" onclick="editItems(this.id)">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
